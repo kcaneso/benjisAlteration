@@ -1,0 +1,217 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;
+  }
+
+
+  /* Fonts */
+@font-face {
+    font-family: 'Bogart';
+    src: url('fonts/bogart/Bogart-Regular-trial.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Migra';
+    src: url('fonts/migra/Migra-Extrabold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'migra-regular';
+    src: url('fonts/migra/Migra-Extralight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dmSans-regular';
+    src: url('fonts/dmSans/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dmSans-bold';
+    src: url('fonts/dmSans/DMSans-Bold.ttf') format('truetype');
+}
+
+
+body {
+    font-family: "dmSans-regular";
+    color: #231f20;
+    background-color: #f8f0de;
+}
+
+h1 {
+    font-family: "Bogart";
+    font-size: 7rem;
+}
+
+h3 {
+    font-family: "migra-regular";
+    font-size: 4rem;
+}
+
+h5, .list-bold {
+    font-family: "dmSans-bold";
+    font-size: 2rem;
+}
+
+p, li { 
+    font-family: "dmSans-regular";
+    font-size: 2rem;
+}
+
+button {
+    font-family: "dmSans-regular";
+    background-color: transparent;
+    font-size: 2rem;
+    text-transform: lowercase;
+    padding: 20px 100px;
+    border: 2px solid #f8f0de;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #4d4d4d;
+}
+
+a {
+    text-decoration: none;
+    color: #f8f0de;
+}
+
+li {
+    list-style: none;
+}
+
+  /* Background Parallax Section Styling */
+.background {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f8f0de;
+}
+
+.content {
+    max-width: 70vw;
+    height: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bg1 {
+    background-image: url("bg1.png");
+}
+
+#bg2 {
+    background-image: url("bg2.png");
+}
+
+
+ /* Contents Div Styling */
+
+    /*Section 1*/
+#banner {
+    color: #f8f0de;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#banner h1 {
+    padding-top: 400px;
+}
+
+#banner h2 {
+    font-size: 2.6rem;
+    padding-bottom: 80px;
+}
+
+    /*Section 2*/
+
+#services {
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(24, 1fr);
+
+}
+
+#services h1 {
+    grid-area: 2 / 2 / 4 / 15 ;
+    text-align: right;
+}
+
+#services h5 {
+    grid-area: 4 / 2 / 5 / 15;
+    text-align: left;
+}
+
+#services p {
+    grid-area: 5 / 2 / 7 / 15 ;
+    text-align: justify;
+}
+
+#services ul {
+    grid-area: 7 / 2 / 12 / 15 ;
+    text-align: right;
+}
+
+#services img {
+    grid-area: 2 / 16 / 12  / 24 ;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+    /*Section 3*/
+
+
+#bg2 {
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#contact-top, #contact-bottom {
+    background-color: #f8f0de;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-top h3 {
+    width: 80%;
+}
+
+#contact-bottom ul {
+    width: 60%;
+    text-align: right;
+}
+
+.button-container {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.button-container button {
+    border: 2px solid #231f20;
+}
+
+.button-container button:hover {
+    background-color: #75656a;
+}
+
+.button-container a {
+    color: #231f20
+}
+
