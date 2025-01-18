@@ -77,7 +77,7 @@ a {
 
 ul {
     font-family: 'dmSans-regular';
-    font-size: 1.8em;
+    font-size: 2em;
     list-style: none;
     line-height: 3em;
 }
@@ -176,7 +176,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     color: #151619;
 }
 
@@ -225,17 +224,23 @@ ul {
     p {
         font-size: 1em;
     }
-
     ul {
-        font-size: 1.4m;
+        font-size: 1.8em;
     }
     #aboutme, #services {
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
+    .content {
+        height: 90%;
+        width: 100%;
+    }
     .contentleft, .contentright {
-        width: 50%;
+        width: 80%;
+    }
+    #servicesleft {
+        height: 20%;
     }
     /* CONTACT */
     h4 {
@@ -247,6 +252,7 @@ ul {
     /* BANNER */
     h1 {
         font-size: 4em;
+
     }
     h2 {
         font-size: 2em;
@@ -259,15 +265,22 @@ ul {
         font-size: 1em;
     }
     ul {
-        font-size: 1em;
+        font-size: 1.6em;
     }
     #aboutme, #services {
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
+    .content {
+        height: 90%;
+        width: 100%;
+    }
     .contentleft, .contentright {
-        width: 50%;
+        width: 80%;
+    }
+    #servicesleft {
+        height: 20%;
     }
     /* CONTACT */
     h4 {
@@ -298,8 +311,15 @@ ul {
         justify-content: space-evenly;
         align-items: center;
     }
+    .content {
+        height: 90%;
+        width: 100%;
+    }
     .contentleft, .contentright {
-        width: 50%;
+        width: 80%;
+    }
+    #servicesleft {
+        height: 20%;
     }
     /* CONTACT */
     h4 {
