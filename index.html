@@ -1,79 +1,444 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gleaming Free Parrot</title>
+    <meta property="og:title" content="Gleaming Free Parrot" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-<html>
-<head>
-    <title>Benji's Alteration</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AllYearLong Band</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
 
-    
-    <meta property="og:title" content="Benji's Alteration">
-    <meta property="og:description" content="Local Alteration Services">
-    <meta property="og:image" content="bg1.png">
-    <meta property="og:url" content="https://kcaneso.github.io/benjisAlteration/bg1.png">
-    <meta property="og:type" content="website">
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
 
-</head>
-<body>
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
 
-    <section class="container" id="conbanner">
-        <div class="content" id="banner">
-            <h1>Benji's Alteration</h1>
-            <h2>Local Alteration Services</h2>
-            <h3><a href="#concontact">get in touch</a></h3>
-        </div>
-    </section>
-
-    <section class="container" id="conaboutme">
-        <div class="content" id="aboutme">
-            <div class="contentleft" id="aboutmeleft">
-                <h3>About Me</h3>
-                <h2>Hi, I'm Benji.</h2>
-                <p>I offer personal alteration services right here in Richmond! From hemming pants to simple adjustments for a better fit, I’m here to help your clothes look and feel their best.</p>
-                <h3 id="a-services"><a href="#conservices">Services</a></h3>
+      <div class="home-container">
+        <banner-wrapper class="banner-wrapper">
+          <!--Banner component-->
+          <div class="banner-header5 thq-section-padding">
+            <div class="banner-max-width thq-section-max-width">
+              <div class="banner-column">
+                <div class="banner-content">
+                  <h1 class="banner-text1 thq-heading-1">
+                    <fragment class="home-fragment12">
+                      <span class="home-text12">Benji's Alteration</span>
+                    </fragment>
+                  </h1>
+                  <p class="thq-body-large banner-text2">
+                    <fragment class="home-fragment11">
+                      <span class="home-text11">Local Alteration Services</span>
+                    </fragment>
+                  </p>
+                  <div class="banner-actions">
+                    <div class="banner-container">
+                      <button
+                        type="button"
+                        class="banner-button thq-button-filled"
+                      >
+                        <span class="thq-body-small">
+                          <fragment class="home-fragment10">
+                            <span class="home-text10"><a href="#contact">Get in touch</a></span>
+                          </fragment>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="contentright" id="aboutmeright">
-                <img src="aboutme.jpg" alt="">
+          </div>
+        </banner-wrapper>
+        <about-me-wrapper
+          class="about-me-wrapper"
+          rootclassname="about-meundefined"
+        >
+          <!--AboutMe component-->
+          <div
+            class="about-me-blog-post-header3 thq-section-padding about-meroot-class-name"
+          >
+            <div class="about-me-max-width thq-section-max-width">
+              <div class="about-me-section-title">
+                <div class="about-me-title1">
+                  <div class="about-me-breadcrumbs"></div>
+                  <span class="thq-body-small about-me-read-time">
+                    <fragment class="home-fragment14">
+                      <span class="home-text14">ABOUT ME</span>
+                    </fragment>
+                  </span>
+                  <div class="about-me-content1">
+                    <h1 class="thq-heading-1 about-me-title2">
+                      <fragment class="home-fragment16">
+                        <span class="home-text16">Hi, I'm Benji.</span>
+                      </fragment>
+                    </h1>
+                    <div class="about-me-content2">
+                      <div class="about-me-author">
+                        <span class="thq-body-small">
+                          <fragment class="home-fragment15">
+                            <span class="home-text15">
+                              I offer personal alteration services right here in
+                              Richmond. From hemming pants to simple adjustments
+                              for a better fit, I'm here to help your clothes
+                              look and feel their best.
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                    <button type="button" class="about-me-services button">
+                      <span>
+                        <fragment class="home-fragment13">
+                          <span class="home-text13"><a href="#services">Services</a></span>
+                        </fragment>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="about-me-container">
+                <img
+                  alt="PlaceholderImage3501"
+                  src="public/aboutme-600w.jpg"
+                  class="about-me-image1 thq-img-ratio-4-3"
+                />
+              </div>
             </div>
-        </div>
-    </section>
-
-    <section class="container" id="conservices">
-        <div class="content" id="services">
-            <div class="contentleft" id="servicesleft">
-                <h1>Services</h1>
+          </div>
+        </about-me-wrapper>
+        <services1-wrapper
+          class="services1-wrapper"
+          rootclassname="services1undefined"
+        >
+          <!--Services1 component-->
+          <div
+            class="services1-container1 thq-section-padding services1root-class-name"
+          >
+            <div
+              id="services"
+              class="services1-container2 thq-section-max-width"
+            >
+              <div class="services1-image-container">
+                <img
+                  alt="feature 1"
+                  src="https://images.unsplash.com/photo-1470167290877-7d5d3446de4c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHx0YWlsb3J8ZW58MHx8fHwxNzQxNjM0NjI5fDA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                  class="services1-image thq-img-ratio-16-9"
+                />
+              </div>
+              <div class="services1-tabs-menu">
+                <span>
+                  <fragment class="home-fragment17">
+                    <span class="home-text17">SERVICES</span>
+                  </fragment>
+                </span>
+                <div class="services1-tab-horizontal1">
+                  <div class="services1-divider-container1">
+                    <div class="services1-container3"></div>
+                  </div>
+                  <div class="services1-content1">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment18">
+                        <span class="home-text18">Hemming</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment21">
+                        <span class="home-text21">
+                          Adjust the length of pants, skirts, or dresses for a
+                          perfect fit. You'll love the way your clothes drape
+                          just right!
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="services1-tab-horizontal2">
+                  <div class="services1-divider-container2">
+                    <div class="services1-container4"></div>
+                  </div>
+                  <div class="services1-content2">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment19">
+                        <span class="home-text19">Tapering Pants</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment22">
+                        <span class="home-text22">
+                          Narrow the leg width of pants for a slimmer, more
+                          tailored look. Step out in confidence with a sleek,
+                          modern fit!
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="services1-tab-horizontal3">
+                  <div class="services1-divider-container3">
+                    <div class="services1-container5"></div>
+                  </div>
+                  <div class="services1-content3">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment20">
+                        <span class="home-text20">Waist Adjustment</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment23">
+                        <span class="home-text23">
+                          Take in or let out the waistband for improved comfort
+                          and fit. Feel comfortable and stylish in clothes that
+                          truly fit you!
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="contentright" id="servicesright">
-                <ul>    
-                    <li>#001   Hemming</li>
-                    <li>#002   Tapering Pants</li>
-                    <li>#003   Waist Adjustment</li>                    
-                    <li>#004   Sewing on Buttons</li>
-                    <li>#005   Shortening Sleeves</li>
-                    <li>#006   Letting In/Out Sides</li>
-                </ul>
+          </div>
+        </services1-wrapper>
+        <services2-wrapper
+          class="services2-wrapper"
+          rootclassname="services2undefined"
+        >
+          <!--Services2 component-->
+          <div
+            class="services2-container1 thq-section-padding services2root-class-name"
+          >
+            <div class="services2-container2 thq-section-max-width">
+              <div class="services2-tabs-menu">
+                <span class="services2-text1">
+                  <fragment class="home-fragment24">
+                    <span class="home-text24">SERVICES</span>
+                  </fragment>
+                </span>
+                <div class="services2-tab-horizontal1">
+                  <div class="services2-divider-container1">
+                    <div class="services2-container3"></div>
+                  </div>
+                  <div class="services2-content1">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment25">
+                        <span class="home-text25">Sewing on Buttons</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment28">
+                        <span class="home-text28">
+                          Replace or secure loose buttons to restore your
+                          garments. A little fix can make your favorite outfit
+                          feel brand new!
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="services2-tab-horizontal2">
+                  <div class="services2-divider-container2">
+                    <div class="services2-container4"></div>
+                  </div>
+                  <div class="services2-content2">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment26">
+                        <span class="home-text26">Shortening Sleeves</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment29">
+                        <span class="home-text29">
+                          Adjust sleeve length for a polished, well-fitted
+                          appearance. Enjoy a flawless fit that’s both stylish
+                          and comfortable!
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="services2-tab-horizontal3">
+                  <div class="services2-divider-container3">
+                    <div class="services2-container5"></div>
+                  </div>
+                  <div class="services2-content3">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment27">
+                        <span class="home-text27">Letting In/Out Sides</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment30">
+                        <span class="home-text30">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla, ut commodo diam libero vitae
+                          erat.
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="services2-image-container">
+                <img
+                  alt="feature 1"
+                  src="https://images.unsplash.com/photo-1601125611205-9a5e6f292abf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE5fHx0YWlsb3J8ZW58MHx8fHwxNzQxNjM0NjI5fDA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                  class="services2-image thq-img-ratio-16-9"
+                />
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
+        </services2-wrapper>
+        <contact-wrapper
+          class="contact-wrapper"
+          rootclassname="contactundefined"
+        >
+          <!--Contact component-->
+          <div
+            class="contact-contact20 thq-section-padding contactroot-class-name"
+          >
+            <div id="contact" class="contact-max-width thq-section-max-width">
+              <div class="contact-section-title">
+                <div class="contact-content1">
+                  <h2 class="thq-heading-2 contact-text1">
+                    <fragment class="home-fragment32">
+                      <span class="home-text32">Get in touch!</span>
+                    </fragment>
+                  </h2>
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="contact-content2">
+                  <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
+                  <div class="contact-contact-info">
+                    <span class="contact-email thq-body-small">
+                      <fragment class="home-fragment31">
+                        <span class="home-text31">
+                          benjisalteration@gmail.com
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </contact-wrapper>
+        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+          <!--Footer component-->
+          <footer
+            class="footer-footer4 thq-section-padding footerroot-class-name"
+          >
+            <div class="footer-max-width thq-section-max-width">
+              <div class="footer-content">
+                <span class="footer-text1">
+                  <fragment class="home-fragment33">
+                    <span class="home-text33">Connect with me</span>
+                  </fragment>
+                </span>
+                <div class="footer-social-links">
 
-    <section class="container" id="concontact">
-        <div class="content" id="contact">
-            <h1>Get in touch!</h1>
-            <h3>Benji's Alteration</h3>
-            <h4>benjisalteration@gmail.com</h4>
-            <h3>Connect with me</h3>
-            <p><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a></p>
-        </div>
-    </section>
+
+                  <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer-link1"
+                >
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="footer-icon1 thq-icon-small"
+                  >
+                    <path
+                      d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                    ></path>
+                  </svg>
+                </a>
 
 
-</body>
+
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer-link2"
+                >
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="footer-icon3 thq-icon-small"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path>
+                  </svg>
+                </a>
+
+                
+                <a
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer-link3"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="footer-icon5 thq-icon-small"
+                  >
+                    <path
+                      d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                    ></path>
+                  </svg>
+                </a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </footer-wrapper>
+      </div>
+    </div>
+  </body>
 </html>
-
-
-
-
-

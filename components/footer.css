@@ -1,0 +1,113 @@
+.footer-footer4 {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.footer-max-width {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+ 
+.footer-content {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.footer-text1 {
+  align-self: center;
+}
+ 
+.footer-social-links {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+ 
+.footer-fragment {
+  display: contents;
+}
+ 
+.footer-text2 {
+  display: inline-block;
+}
+ 
+.footerroot-class-name {
+  fill: var(--dl-color-theme-secondary2);
+  color: var(--dl-color-theme-secondary2);
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1497997092403-f091fcf5b6c4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fHNld2luZyUyMG1hY2hpbmV8ZW58MHx8fHwxNzQxNjM3NDQ4fDA&ixlib=rb-4.0.3&w=1500');
+}
+ 
+@media(max-width: 1600px) {
+  .footer-social-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footerroot-class-name {
+    left: 0px;
+    bottom: 0px;
+    position: static;
+    align-self: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1497997092403-f091fcf5b6c4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fHNld2luZyUyMG1hY2hpbmV8ZW58MHx8fHwxNzQxNjM3NDQ4fDA&ixlib=rb-4.0.3&w=1500');
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .footer-footer4 {
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1497997092403-f091fcf5b6c4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fHNld2luZyUyMG1hY2hpbmV8ZW58MHx8fHwxNzQxNjM3NDQ4fDA&ixlib=rb-4.0.3&w=1500");
+  }
+  .footer-content {
+    align-self: center;
+  }
+  .footer-text1 {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+  }
+  .footer-icon1 {
+    fill: var(--dl-color-theme-neutral-light);
+  }
+  .footer-icon3 {
+    fill: #D9D9D9;
+  }
+  .footer-icon5 {
+    fill: #D9D9D9;
+  }
+  .footerroot-class-name {
+    align-self: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .footer-content {
+    width: 100%;
+  }
+}
